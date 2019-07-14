@@ -1,0 +1,171 @@
+*{
+    border:0;
+    margin: 0;
+    padding: 0;
+}
+.body_wrap{
+    width: 800px;
+    margin: 0 auto;
+    border:1px solid silver;
+}
+.header_1{
+    width: 100%;
+    height: 20px;
+    background: rgb(0, 255, 255);
+    z-index: 2;
+    border-top-left-radius: 2.5px;
+    border-top-right-radius: 2.5px;
+}
+
+.header_2{
+    width: 100%;
+    height: 220px;
+    background: rgb(0, 255, 255);
+    display: flex;
+}
+.square_photo{
+    width: 55%;
+    height: 80%;
+    border:5px dotted rgb(255, 255, 255);
+    margin: 0 auto;
+    transform: rotate(-10deg);
+    box-shadow: 0px 15px 100px 5px;
+}
+.header_right{
+    width:60%;
+    height: 100%;
+    padding-right: 5%;
+    margin-right: 1.5%;
+    border:5px dotted rgb(0, 255, 255);
+    background: rgb(255, 255, 255);
+
+}
+.header_right > h1{
+
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.4rem;
+}
+
+.header_right > p{
+    text-align: center;
+}
+.header_left{
+    padding: 2.5% 0% 0% 0%;
+    width:40%;
+    height: 100%;
+    background: rgb(0, 255, 255);
+}
+.header_3{
+    width: 100%;
+    height: 20px;
+    background: rgb(0, 255, 255);
+}
+.sub_body{
+    display: flex;
+    flex-direction: row;
+}
+
+.sub_body > .left{
+ width: 40%;
+ background: rgb(200, 255, 255);
+ padding-left: 1.5%;
+ padding-right: 1.5%;
+}
+.sub_body > .right{
+    width: 60%;
+    background: rgb(255, 255, 255);
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+/* inners */
+.bio_data{
+    width: 100%;
+    height: 200px;
+    background: rgb(100, 255, 255);
+    border-radius: 5px;
+}
+
+.contact{
+    width: 100%;
+    height: 240px;
+    background: rgb(100, 255, 255);
+}
+
+.language{
+    width: 100%;
+    height: 180px;
+    background: #64ffff;
+}
+
+.hobbies{
+    width: 100%;
+    height: 180px;
+    background: rgb(100, 255, 255);
+    border-radius: 5px;
+}
+/* inners left */
+
+.objective{
+    width: 100%;
+    height: 240px;
+    background: rgb(255, 255, 255);
+}
+.objective >h1{
+    background-image: linear-gradient(#fff,#64ffff, #fff);
+    text-align: center;
+    padding-top: 2.5%;
+    font-size: 1.4rem;
+}
+
+.objective >p{
+    text-align: center;
+    margin-top: 5%;
+}
+.education{
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+.education >h1{
+    background-image: linear-gradient(#fff,#64ffff, #fff);
+    text-align: center;
+    padding-top: 2.5%;
+    font-size: 1.4rem;
+}
+
+.experience >h1{
+    background-image: linear-gradient(#fff,#64ffff, #fff);
+    text-align: center;
+    padding-top: 2.5%;
+    font-size: 1.4rem;
+}
+
+.experience >p{
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.education >p{
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.experience{
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+footer{
+    width: 100%;
+    height: 8px;
+    background-image: linear-gradient(#64ffff,#fff,#64ffff)
+}
+
+.title{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 15px;
+    background-image: linear-gradient(#fff,#64ffff, #fff)
+}
